@@ -9,3 +9,10 @@
 <img src = "https://github.com/amansetu03/DS-Internship-Celebal-Technology/assets/106844274/b97b3d61-42fe-4092-9f9c-06adec30132a"><br>
 #### 4. Eigenvalues and Eigenvectors
 <img src = "https://github.com/amansetu03/DS-Internship-Celebal-Technology/assets/106844274/5d2c3d35-0489-4059-b90a-09240e2b3a4d"><br>
+# Task-T2:
+<br>
+1. calculate the probability that an individual is male, given that they prefer baseball as their favorite sport
+ <img src = "https://github.com/amansetu03/DS-Internship-Celebal-Technology/assets/106844274/95ae9663-c808-4f41-afef-3ea10448d293">
+<br>
+2. calculate the probability that an individual prefers basketball as their favorite sport, given that they're female
+  <img src= "https://github.com/amansetu03/DS-Internship-Celebal-Technology/assets/106844274/fb917ac8-2ca6-4d5f-8d34-e172d26f41d6">
