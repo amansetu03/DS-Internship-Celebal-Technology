@@ -1,5 +1,6 @@
 # Task-T1
-  ## Demonstrate time series analysis on given air passenger dataset and perform following operations:
+  <p>Demonstrate time series analysis on given air passenger dataset and perform following operations:</p>
+  
 ### Visualize the data.
 <img src = "https://github.com/amansetu03/DS-Internship-Celebal-Technology/assets/106844274/32a22d75-dfe1-4076-b163-6d9c3f99f833"><br>
 ### Decomposition of a Time Series .
@@ -24,7 +25,8 @@
 
 
 # Task-T2 
-  ## Demonstrate Data Cleaning and Preprocessing using given healthcare dataset and perform following operations:
+ <p>Demonstrate Data Cleaning and Preprocessing using given healthcare dataset and perform following operations:</p>
+ 
 ### Displaying those rows that have heart disease 
 <img src = "https://github.com/amansetu03/DS-Internship-Celebal-Technology/assets/106844274/fcecf809-5282-436a-9e57-d6ef268e02dc"><br>
 ### Displaying those rows that have hypertension and no heart disease 
