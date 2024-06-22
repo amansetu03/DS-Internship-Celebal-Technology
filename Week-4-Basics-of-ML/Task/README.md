@@ -1,4 +1,6 @@
 # Task-T1:
+<p>Develop a python program to demonstrate following operations on given matrix A:</p>
+
 #### Matrix A:
 <img src = "https://github.com/amansetu03/DS-Internship-Celebal-Technology/assets/106844274/1ad11ca3-2632-48b3-a777-af5562cba36a"><br>
 #### 1. Matrix Multiplication (A * A)
@@ -10,6 +12,14 @@
 #### 4. Eigenvalues and Eigenvectors
 <img src = "https://github.com/amansetu03/DS-Internship-Celebal-Technology/assets/106844274/5d2c3d35-0489-4059-b90a-09240e2b3a4d"><br>
 # Task-T2:
+<p>Suppose we send out a survey to 300 individuals asking them which sport they like best: baseball, basketball, football, or soccer</p>
+
+| gender\sports | Baseball | Basketball | Football | Soccer | All |
+|--------|----------|------------|----------|--------|-----|
+| Female | 34       | 52         | 20       | 44     | 150 |
+| Male   | 34       | 49         | 58       | 18     | 150 |
+| All    | 68       | 92         | 78       | 62     | 300 |
+
 <br>
 1. calculate the probability that an individual is male, given that they prefer baseball as their favorite sport
  <img src = "https://github.com/amansetu03/DS-Internship-Celebal-Technology/assets/106844274/95ae9663-c808-4f41-afef-3ea10448d293">
