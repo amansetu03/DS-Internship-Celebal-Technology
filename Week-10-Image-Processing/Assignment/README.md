@@ -16,4 +16,4 @@ I used Yolov8 for training model.
 <img src = "https://github.com/user-attachments/assets/1120f3a9-60dd-4bad-9e18-27be8550a9c8" width= "49%">
 <img src = "https://github.com/user-attachments/assets/cd27db9d-1993-400e-b2bb-2cfeaa9250cc" width = "49%">
 
-_more images <a href = "Assignment/test/result" >test/result</a>  folder_
+_more images <a href = "test/result" >test/result</a>  folder_
