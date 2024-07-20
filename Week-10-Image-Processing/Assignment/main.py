@@ -4,7 +4,7 @@ from ultralytics import YOLO
 cap = cv2.VideoCapture(0)
 ret, frame = cap.read()
 
-model = YOLO("model/indor-object-detaction-model-yolov8.pt")
+model = YOLO("model/weights/last.pt")
 threshold = 0.5
 while True:
     # img_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
