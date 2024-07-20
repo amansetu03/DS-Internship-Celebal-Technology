@@ -1,5 +1,7 @@
 ## Week-10-Assignment: Indoor Object Detection 
 I used Yolov8 for training model.
+#### Run main.py for live detaction
+
 ### training result
 <img src = "https://github.com/user-attachments/assets/02a0087a-28cc-468b-a924-0075ec95ebca" width="70%">
 
