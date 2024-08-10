@@ -1,19 +1,25 @@
-from flask import Flask
-from flask import render_template, request
-from encryptionSelection import encryptionProsess
+from flask import Flask,request,jsonify
+from api import predict_price
 
 app = Flask(__name__)
 
 @app.route('/')
-def home():
-    return render_template('home.html')
 
-@app.route('/hello',methods=['POST'])
-def hello():
-    message = request.form['inputMassage']
-    encryptionType = request.form['encryptionType'] 
-    #call encryption method
-    encryptedMessage = encryptionProsess(message, encryptionType)
-    return render_template('home.html', Result=f"{encryptedMessage}")
+def home():
+    return "hello world"
+
+
+@app.route('/predict',methods = ['POST'])
+def predict():
+    loc = request.form.get('loc')
+    sqft = int(request.form.get('sqft'))
+    bath = int(request.form.get('bath'))
+    bhk = int(request.form.get('bhk'))
+
+    price = predict_price(loc,sqft,bath,bhk)
+    result = {"expected_Price":str(price)}
+    
+    return jsonify(result)
+
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
