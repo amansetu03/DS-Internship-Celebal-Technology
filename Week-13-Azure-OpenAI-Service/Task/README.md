@@ -1,4 +1,4 @@
-## Azure Logic Apps
+## What is Azure Logic Apps? What are the utilities of Azure Logic Apps?
 
 **Azure Logic Apps** is a cloud-based service from Microsoft Azure that enables you to automate workflows and integrate applications, data, and services with minimal coding. Using a visual designer and a wide range of connectors, Logic Apps simplifies the automation of tasks, data synchronization, and management of business processes.
 
@@ -14,20 +14,21 @@
 
 Azure Logic Apps offers a powerful, scalable, and easy-to-use platform for integrating and automating workflows across diverse systems and services.
 
+## Discuss one example to explain the workflow of creation and deployment of Azure Logic Apps.
 
 
-## Example: Automating Email Notifications for New Orders
+### Example: Automating Email Notifications for New Orders
 
 This example demonstrates how to use **Azure Logic Apps** to automate email notifications and log customer orders in a database.
 
-### Workflow Summary
+#### Workflow Summary
 
 1. **Trigger:** The workflow starts when a new customer order is placed.
 2. **Retrieve Order Details:** Extract order information such as order ID and customer name.
 3. **Send Email Notification:** An automated email is sent to the sales team with the order details.
 4. **Log Order in Database:** The order details are stored in a SQL database.
 
-### Steps to Implement
+#### Steps to Implement
 
 1. **Create a Logic App** in Azure and access the visual designer.
 2. **Add a Trigger** for new orders from the e-commerce platform.
